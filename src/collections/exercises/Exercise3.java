@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- TODO:
  1. Create a Map<String, String> phoneBook (name → phone number).
  2. Add 3 entries.
  3. Print all entries.

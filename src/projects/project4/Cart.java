@@ -50,7 +50,7 @@ public class Cart {
                 //3rd way
                 throw new IllegalArgumentException("Quantity (" + quantity + ") was bigger than what we had (" + items.get(product) + ")");
                 //4th way
-                //Asking on the spot from CLI
+                //Asking on runtime from CLI
             }
             else if(items.get(product) == quantity) {
                 items.remove(product);
@@ -66,6 +66,8 @@ public class Cart {
     void removeProduct(Product product) {
         this.removeProduct(product, items.get(product));
     }
+
+    // removeProduct by one could have been implemented here
 
     public Double getTotalPrice() {
         return totalPrice;

@@ -5,6 +5,8 @@ public class Car extends Vehicle
 {
     private int doors;
 
+//    public Car() {  }  //This constructor cannot exist because parent class doesn't have a default constructor.
+
     public Car(String brand, int doors)
     {
         super(brand); // call Vehicle constructor
