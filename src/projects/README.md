@@ -33,19 +33,10 @@
     * Classes: `Product`, `Cart`, `User`.
     * Use `Map<Product, Integer>` for product quantities.
     * Features: add/remove products, calculate total price.
-
+    
 ---
 
-5. **Zoo Management System** 🦁🐒🐧
-
-    * Abstract class: `Animal` (method `makeSound()`).
-    * Subclasses: `Lion`, `Monkey`, `Penguin`.
-    * Store animals in a `List<Animal>` (demonstrating **polymorphism**).
-    * Features: feed animals, display zoo inventory.
-
----
-
-6. **Library of Music / Playlist Manager** 🎵
+5. **Library of Music / Playlist Manager** 🎵
 
     * Classes: `Song`, `Playlist`, `Artist`.
     * A `Playlist` **HAS-A List<Song>`.
@@ -54,7 +45,7 @@
 
 ---
 
-7. **Employee Management System** 🏢
+6. **Employee Management System** 🏢
 
     * Abstract class: `Employee` (fields: name, salary).
     * Subclasses: `Developer`, `Manager`.
@@ -63,24 +54,16 @@
 
 ---
 
-8. **Library of Movies (Movie Catalog)** 🎬
+7. **Library of Movies (Movie Catalog)** 🎬
 
     * Classes: `Movie`, `Actor`, `Director`.
     * Store movies in a `Map<String, Movie>` (key = movie title).
     * Features: add movies, search by genre, list movies by actor.
 
----
-
-9. **Online Quiz System** ❓
-
-    * Classes: `Question`, `ChoiceQuestion`, `TrueFalseQuestion`.
-    * Store questions in a `List<Question>`.
-    * Use **polymorphism**: `displayQuestion()` overridden in each subclass.
-    * Features: ask questions, check answers, calculate score.
 
 ---
 
-10. **School Library Borrowing System** 🏫
+9. **School Library Borrowing System** 🏫
 
 * Classes: `Book`, `Student`, `Teacher`, `Loan`.
 * A `Loan` **HAS-A Book and Member**.
