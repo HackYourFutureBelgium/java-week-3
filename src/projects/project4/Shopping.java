@@ -2,8 +2,6 @@ package projects.project4;
 
 public class Shopping {
 
-    Double totalPrice;
-
     public static void main(String[] args) {
         User user = new User(new Cart());   //We give what the user needs (a cart)
 

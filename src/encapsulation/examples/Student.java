@@ -20,7 +20,7 @@ public class Student
 
     // Setter with validation
     public void setAge(int age) throws InvalidAgeException {
-        if (age > 0 && age < 120)
+        if (age >= 0 && age < 120)
         {
             this.age = age;
         }

@@ -74,6 +74,7 @@ public class Cart {
     }
 
     public void calculateTotalPrice() {
+        //This method has a bug, to be refactored by students
         System.out.println("Before calculation" + totalPrice);
         //students should find the bug here
         for(Map.Entry<Product, Integer> entry : items.entrySet()) {
