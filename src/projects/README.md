@@ -7,6 +7,7 @@
     * Store books in a `Map<ISBN, Book>`.
     * ISBN can be a String
     * Features: add/remove books, search by title, list members.
+    * You can override equals and hashCode methods
 
 ---
 
@@ -42,34 +43,5 @@
     * A `Playlist` **HAS-A List<Song>`.
     * Use `List<String>`. check if the List contains a song before adding.
     * Features: add/remove songs, shuffle playlist.
-
----
-
-6. **Employee Management System** 🏢
-
-    * Abstract class: `Employee` (fields: name, salary).
-    * Subclasses: `Developer`, `Manager`.
-    * Store employees in a `List<Employee>`.
-    * Features: print payroll, give raises, list managers separately.
-
----
-
-7. **Library of Movies (Movie Catalog)** 🎬
-
-    * Classes: `Movie`, `Actor`, `Director`.
-    * Store movies in a `Map<String, Movie>` (key = movie title).
-    * Features: add movies, search by genre, list movies by actor.
-
-
----
-
-9. **School Library Borrowing System** 🏫
-
-* Classes: `Book`, `Student`, `Teacher`, `Loan`.
-* A `Loan` **HAS-A Book and Member**.
-* Use a `Map<Member, List<Book>>` to track who borrowed what.
-* Features: borrow/return books, list borrowed books by member.
-
----
-
+    * You can override equals or hashCode
 
