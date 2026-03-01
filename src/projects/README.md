@@ -5,6 +5,7 @@
     * Classes: `Library`, `Book`, `Member` (with `StudentMember`, `TeacherMember`).
     * Use **composition** (`Library HAS-A List<Book>`).
     * Store books in a `Map<ISBN, Book>`.
+    * ISBN can be a String
     * Features: add/remove books, search by title, list members.
 
 ---
@@ -23,14 +24,13 @@
     * Classes: `Student`, `Course`, `Teacher`.
     * A `Course` **HAS-A List<Student>`.
     * Store students in a `List<Student>`.
-    * Features: enroll students, calculate GPA, print course rosters.
+    * Features: enroll students, print course students.
 
 ---
 
 4. **E-Commerce Shopping Cart** 🛒
 
     * Classes: `Product`, `Cart`, `User`.
-    * A `Cart` **HAS-A List<Product>`.
     * Use `Map<Product, Integer>` for product quantities.
     * Features: add/remove products, calculate total price.
 
